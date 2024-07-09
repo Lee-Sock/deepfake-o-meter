@@ -5,7 +5,7 @@
 # python        3.7    (conda)
 # pytorch       1.0.1  (pip)
 # ==================================================================
-FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
+FROM sulfurheron/nvidia-cuda:9.0-cudnn7-devel-ubuntu16.04-2018-06-08
 MAINTAINER zhangcong
 
 RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
